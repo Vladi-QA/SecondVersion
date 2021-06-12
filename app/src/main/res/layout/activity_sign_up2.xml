@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tell me about yourself"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="84dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="265dp"
+        android:layout_height="57dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="Birthday"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="265dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Country"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="265dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="City"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"/>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="84dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+
+        android:layout_marginTop="430dp"
+        android:layout_marginStart="70dp"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"
+
+        android:layout_marginTop="430dp"
+        android:layout_marginStart="240dp"
+        />
+    <Button
+        android:id="@+id/Next2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginStart="240dp"
+        android:gravity="end"
+        android:rotationX="21"
+        android:text="Next" />
+
+
+
+
+    <Button
+        android:id="@+id/Previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="end"
+        android:rotationX="21"
+        android:layout_marginStart="40dp"
+        android:text="Previous" />
+</RelativeLayout>

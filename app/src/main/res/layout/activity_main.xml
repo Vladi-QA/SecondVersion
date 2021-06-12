@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/newlogo" />
+
+    <Button
+        android:id="@+id/SignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:text="Sign In" />
+
+    <Button
+        android:id="@+id/SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="150dp"
+        android:text="Sign Up"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/SignUp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/face" />
+
+    <ImageView
+        android:id="@+id/instagram"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/SignUp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="64dp"
+        app:srcCompat="@drawable/inst" />
+
+    <ImageView
+        android:id="@+id/tweeter"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/SignUp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="55dp"
+        app:srcCompat="@drawable/twit" />
+
+    <ImageView
+        android:id="@+id/YouTube"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/SignUp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="55dp"
+        app:srcCompat="@drawable/youtube" />
+</RelativeLayout>
