@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class SignUp2 extends AppCompatActivity {
 Button Next2;
+Button Previous;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,5 +23,14 @@ Button Next2;
                 startActivity(intent);
             }
         });
+        Previous = findViewById(R.id.Previous);
+        Previous.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SignUp2.this, SignUpActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
