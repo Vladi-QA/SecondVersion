@@ -14,11 +14,11 @@ public class SignUp3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up3);
-        Submit = findViewById(R.id.Next4);
+   Submit = findViewById(R.id.Next4);
         Submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SignUp3.this, SignUp4.class);
+                Intent intent = new Intent(SignUp3.this, MainActivity.class);
                 startActivity(intent);
             }
         });

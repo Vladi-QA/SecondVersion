@@ -59,7 +59,7 @@ changeProfile.setOnClickListener(new View.OnClickListener() {
         Previous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SignUp4.this, SignUp3.class);
+                Intent intent = new Intent(SignUp4.this, MainActivity.class);
                 startActivity(intent);
             }
         });

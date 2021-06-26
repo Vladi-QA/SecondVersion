@@ -82,7 +82,7 @@
         android:layout_marginStart="270dp"
         android:gravity="end"
         android:rotationX="21"
-        android:text="Next" />
+        android:text="Submit" />
 
     <Button
         android:id="@+id/Previous"
